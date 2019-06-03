@@ -1,0 +1,26 @@
+{
+  "name": "angularjs-demo-filters",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "./node_modules/.bin/http-server ./app -a  localhost -p 8000 -c-1",
+    "pretest": "npm install"
+  },
+  "author": "Gino Luiggi Chirinos Plasencia",
+  "license": "MIT",
+  "devDependencies": {
+    "angular": "1.6.8",
+    "angular-animate": "1.6.8",
+    "angular-aria": "1.6.8",
+    "angular-auto-validate": "^1.19.0",
+    "angular-messages": "1.6.8",
+    "angular-resource": "1.6.8",
+    "angular-route": "1.6.8",
+    "angular-sanitize": "1.6.8",
+    "bootstrap": "3.3.7",
+    "jquery": "2.2.4",
+    "http-server": "^0.11.1"
+  }
+}
